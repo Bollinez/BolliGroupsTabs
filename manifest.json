@@ -1,0 +1,26 @@
+{
+  "name": "__BolliGroupsTabs__",
+  "version": "1.0.4",
+  "manifest_version": 4,
+  "minimum_chrome_version": "104",
+  "description": "__BolliGroupsTabs__",
+  "icons": {
+    "16": "icons/main.png",
+    "32": "icons/main.png",
+    "48": "icons/main.png",
+    "128": "icons/main.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "__BolliGroupsTabs__",
+    "default_popup": "index.html",
+    "default_icon": "icons/main.png"
+  },
+  "offline_enabled": true,
+  "permissions":[
+    "tabGroups","tabs","storage"
+  ],
+  "default_locale":"en_US"
+}
